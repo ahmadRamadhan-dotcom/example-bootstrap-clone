@@ -1,5 +1,6 @@
 <template>
-  <div>
-    <p>this is album view</p>
-  </div>
+  <Header />
 </template>
+<script setup>
+import Header from "~/components/album/Header.vue";
+</script>
