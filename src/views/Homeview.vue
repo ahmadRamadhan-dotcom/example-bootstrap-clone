@@ -1,5 +1,8 @@
 <template>
-  <div>
-    <p>this is homeview</p>
-  </div>
+  <Header />
+  <main></main>
 </template>
+
+<script setup>
+import Header from "~/components/Header.vue";
+</script>
