@@ -1,9 +1,5 @@
 <template>
-  <div>
-    <TestComp />
-  </div>
+  <div>hai</div>
 </template>
 
-<script setup>
-import TestComp from "~/components/TestComp.vue";
-</script>
+<script setup></script>
