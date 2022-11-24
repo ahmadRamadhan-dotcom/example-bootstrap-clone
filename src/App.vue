@@ -1,5 +1,7 @@
 <template>
-  <div>hai</div>
+  <div>
+    <RouterView />
+  </div>
 </template>
 
 <script setup></script>
