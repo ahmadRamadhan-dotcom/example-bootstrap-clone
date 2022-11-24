@@ -1,6 +1,11 @@
 <template>
-  <div v-for="(data, index) in tailwindExample" id="example_card" class="">
-    <a href="#">
+  <div
+    v-for="(data, index) in tailwindExample"
+    :key="index"
+    id="example_card"
+    class=""
+  >
+    <router-link :to="data.to">
       <img
         :src="data.image"
         id="thumbnail"
@@ -13,13 +18,13 @@
       >
         {{ data.projectName }}
       </p>
-      <p
-        id="desc_project_example"
-        class="font-['Arial'] text-[#6c757d] font-normal text-base mt-3"
-      >
-        {{ data.descProject }}
-      </p>
-    </a>
+    </router-link>
+    <p
+      id="desc_project_example"
+      class="font-['Arial'] text-[#6c757d] font-normal text-base mt-3"
+    >
+      {{ data.descProject }}
+    </p>
   </div>
 </template>
 

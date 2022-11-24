@@ -39,6 +39,7 @@ const fakeComponentsData = [
     projectName: "Album",
     descProject:
       "Simple one-page template for photo galleries, portfolios, and more.",
+    to: "/album",
   },
   {
     id: 2,
@@ -46,6 +47,7 @@ const fakeComponentsData = [
     projectName: "Pricing",
     descProject:
       "Example pricing page built with Cards and featuring a custom header and footer.",
+    to: "/pricing",
   },
   {
     id: 3,
@@ -53,6 +55,7 @@ const fakeComponentsData = [
     projectName: "Checkout",
     descProject:
       "Custom checkout form showing our form components and their validation features.",
+    to: "/checkout",
   },
   {
     id: 4,
@@ -60,6 +63,7 @@ const fakeComponentsData = [
     projectName: "Product",
     descProject:
       "Lean product-focused marketing page with extensive grid and image work.",
+    to: "/product",
   },
 ];
 </script>
