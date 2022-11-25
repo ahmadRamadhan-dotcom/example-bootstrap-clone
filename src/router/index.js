@@ -22,6 +22,11 @@ const routes = [
     name: "Checkout example",
     component: () => import("~/views/Checkoutview.vue"),
   },
+  {
+    path: "/sign-in",
+    name: "Signin Template",
+    component: () => import("~/views/SignInview.vue"),
+  },
 ];
 
 const router = createRouter({

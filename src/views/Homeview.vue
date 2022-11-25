@@ -59,11 +59,10 @@ const fakeComponentsData = [
   },
   {
     id: 4,
-    image: "https://getbootstrap.com/docs/4.2/assets/img/examples/product.png",
-    projectName: "Product",
-    descProject:
-      "Lean product-focused marketing page with extensive grid and image work.",
-    to: "/product",
+    image: "https://getbootstrap.com/docs/4.2/assets/img/examples/sign-in.png",
+    projectName: "Sign-in",
+    descProject: "Custom form layout and design for a simple sign in form.",
+    to: "/sign-in",
   },
 ];
 </script>
