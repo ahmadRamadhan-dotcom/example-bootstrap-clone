@@ -2,6 +2,9 @@
   <Header />
   <main>
     <Hero />
+    <div class="fixed top-14">
+      <router-link to="/">Back to home</router-link>
+    </div>
     <section
       class="grid grid-cols-1 gap-6 md:grid-cols-3 xl:gap-8 mt-32 w-11/12 sm:w-[500px] md:w-[700px] lg:w-[950px] xl:w-[1110px] mx-auto"
     >

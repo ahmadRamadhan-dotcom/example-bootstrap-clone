@@ -2,7 +2,7 @@
   <article
     v-for="(card, index) in cards"
     :key="index"
-    class="h-[24.8em] md:h-[30.8em] lg:h-[26.8em] xl:h-[24.8em] border shadow-md"
+    class="h-[25.8em] md:h-[30.8em] lg:h-[26.8em] xl:h-[24.8em] border shadow-md"
   >
     <svg
       class="placeholder"
