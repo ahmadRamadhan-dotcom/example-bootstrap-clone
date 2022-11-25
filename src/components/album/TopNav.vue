@@ -11,7 +11,7 @@
         sites or contact information.
       </p>
     </div>
-    <div class="grid sm:h-[2.5em]">
+    <div class="grid mt-10 sm:mt-0 sm:h-[2.5em]">
       <p class="font-['Arial'] text-[#fff] text-2xl">Contact</p>
       <span
         v-for="(data, index) in contactList"

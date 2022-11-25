@@ -2,7 +2,7 @@
   <header
     :class="
       list
-        ? 'h-[30em] sm:h-[19em] lg:h-[17em] xl:h-[14.5em] '
+        ? 'h-[28em] sm:h-[19em] lg:h-[17em] xl:h-[14.5em] '
         : 'h-[3.7em] xl:h-[3.5em]'
     "
     class="flex justify-center bg-[#343a40]"
