@@ -1,5 +1,3 @@
 <template>
-  <div>
-    <p>this is pricing view</p>
-  </div>
+  <main></main>
 </template>
